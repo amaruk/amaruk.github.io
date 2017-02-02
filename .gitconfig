@@ -1,0 +1,12 @@
+[alias]
+	co = checkout
+	br = branch
+	ci = commit
+	st = status
+	unstage = reset HEAD --
+	unmod = checkout --
+	last = log -1 HEAD
+	nicelog = log --oneline --decorate --graph --all
+	rt = remote
+	ca = commit -a
+
